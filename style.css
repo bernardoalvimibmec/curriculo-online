@@ -1,0 +1,88 @@
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: auto;    
+    padding: 20px;
+}
+.header-text {
+    max-width: 600px;
+}
+.header-image {
+    display: flex;
+    width: 180px;
+    margin-top: 10px;
+}
+.header-image figure{
+    margin: 0;
+    text-align: center;
+}
+.header-image img{
+    width: 180px;         /* Mantive o tamanho que você queria */
+    height: 220px;        /* A altura deve ser igual à largura para ficar um círculo perfeito */
+    border-radius: 5%;   /* Transforma o quadrado em círculo */
+    object-fit: cover;    /* Garante que a foto não fique achatada ou esticada */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra redondinha aplicada na foto */
+}
+#navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #222;
+    padding: 12px;
+    }
+#navbar a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#navbar a:hover{
+    font-size: 1.4em;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+section:hover {
+    transform: translateY(-2px);
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+h3 {
+    margin-top: 10px;
+}
+a {
+    color: #0077cc;
+}
+a:hover {
+    text-decoration: underline;
+}
+abbr{
+    text-decoration:solid;
+}
