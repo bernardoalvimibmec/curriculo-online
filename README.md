@@ -2,7 +2,7 @@
 
 Este repositório contém o código-fonte do meu currículo e portfólio digital, desenvolvido como um projeto prático para demonstrar minhas habilidades fundamentais de front-end, estruturação de páginas e versionamento de código.
 
-🔗 **[Clique aqui para ver o currículo ao vivo!](COLOQUE_SEU_LINK_DO_GITHUB_PAGES_AQUI)**
+🔗 **[Clique aqui para ver o currículo ao vivo!](https://bernardoalvimibmec.github.io/curriculo-online/)**
 
 ## 🎯 Objetivo do Projeto
 Além de servir como meu cartão de visitas profissional, este projeto foi construído para aplicar conceitos de:
